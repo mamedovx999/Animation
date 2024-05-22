@@ -1,0 +1,14 @@
+ 
+ @keyframes customAnimation {
+    0% { transform: rotate(4deg); }
+    30% { transform: rotate(180deg); }
+  }
+
+  .custom-animation {
+    width: 100px;
+    height: 100px;
+    background-color: blue;
+    position: absolute;
+    animation: customAnimation 2s linear infinite; 
+
+  }
